@@ -1,7 +1,7 @@
 # Awesome Autoencoder for Representation Learning
 
 ## Introduction
-This is a curated list of recent literature on autoencoders for representation learning. The unsupervised and generative nature of autoencoder-based models makes them popular tools for representation learning (e.g. using VAE as the feature extractor). In this list, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders.  
+This is a curated list of recent literature on autoencoders for representation learning. The unsupervised and generative nature of autoencoder-based models makes them popular tools for representation learning (e.g. using VAE as the feature extractor). In this list, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders (p.s. we may also include some not so autoencoder related papers in this third part).  
 <br>
 
 ## Format
@@ -25,10 +25,29 @@ Michael Tschannen, Olivier Bachem, Mario Lucic
 [[link](https://arxiv.org/abs/1812.05069)]   
 <br>
 
+**Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey**  
+Naveed Akhtar, Ajmal Mian  
+*IEEE Access, 2018*  
+[[link](https://ieeexplore.ieee.org/abstract/document/8294186)]  
+<br>
+
+
 ## Theory
+**Disentangling Adversarial Robustness and Generalization**  
+David Stutz, Matthias Hein, Bernt Schiele  
+*CVPR, 2019*  
+[[link](https://openaccess.thecvf.com/content_CVPR_2019/html/Stutz_Disentangling_Adversarial_Robustness_and_Generalization_CVPR_2019_paper.html)]  
+> This papers shows that for a data manifold:  
+> 1. There are generally two types of adversarial examples: **off-manifold** and **on-manifold**. 
+> 2. **On-manifold** adversarial examples are generalization errors, and on-manifold adversarial training improves generalization.  
+> 3. Regular robutsness and generalization are not contradicting.  
 <br>
 
 ## Models
+**From Variational to Deterministic Autoencoders**  
+Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scholkopf  
+*ICLR, 2020*  
+[[link](https://openreview.net/forum?id=S1g7tpEYDS)] [[code](https://github.com/ParthaEth/Regularized_autoencoders-RAE-)]
 <br>
 
 ## Applications
@@ -37,8 +56,8 @@ Michael Tschannen, Olivier Bachem, Mario Lucic
 ## Attacks
 **Adversarial Images for Variational Autoencoders**  
 Pedro Tabacof, Julia Tavares, Eduardo Valle  
-*Preprint, 2016*  
-[[link](https://arxiv.org/abs/1612.00155)]  
+*PAdversarial Training Workshop (NIPS, 2016)*  
+[[link](https://arxiv.org/abs/1612.00155)] [[code](https://github.com/tabacof/adv_vae)]  
 <br>
 
 **Adversarial Attacks on Variational Autoencoders**   
@@ -72,12 +91,6 @@ D. Pasquini, M. Mingione, M. Bernaschi
 [link]  
 <br>
 
-**Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks**    
-J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee   
-*ICCV, 2019*   
-[[link](http://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Evaluating_Robustness_of_Deep_Image_Super-Resolution_Against_Adversarial_Attacks_ICCV_2019_paper.html)]  
-<br>
-
 **Towards Feature Space Adversarial Attack**   
 Xu Q, Tao G, Cheng S, Tan L, Zhang X.  
 *Preprint, 2020*   
@@ -85,9 +98,6 @@ Xu Q, Tao G, Cheng S, Tan L, Zhang X.
 <br>
 
 ## Defenses  
-<br>
-
-## Miscellaneous
 **Are Generative Classifiers More Robust to Adversarial Attacks?**  
 Yingzhen Li   
 *Rejected by ICLR Workshop, 2018*   
@@ -95,6 +105,15 @@ Yingzhen Li
 > - This paper is more on the robustness of bayes classifiers compared to deterministic classifiers. Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
 > - It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
 <br>
+
+**Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks**    
+J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee   
+*ICCV, 2019*   
+[[link](http://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Evaluating_Robustness_of_Deep_Image_Super-Resolution_Against_Adversarial_Attacks_ICCV_2019_paper.html)]  
+<br>
+
+## Miscellaneous
+
 
 
 
