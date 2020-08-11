@@ -6,7 +6,7 @@
 The **bottlenecked** nature empowered autoencoder-based models (AEs) the ability to learn features of input data; the **unsupervised** and 
 **generative nature** of AEs further facilitate the generalizability of the learned features, which is particularly useful in the scenario when unlabeled data is abundant whereas labeled data is scarce.  
 
-Down to a science, the future of machine learning to solve real-world tasks is likely to be generative models followed by discriminative models. AEs (especially its variational families), as an important member of generative models, thus becomes crucial to study.  
+Down to a science, the future of machine learning to solve real-world tasks is likely to be generative models (to pretrain) followed by discriminative models (to predict). AEs (especially its variational families), as an important member of generative models, thus becomes crucial to study.  
  
 In this curated list of literature review, we will focus on recent (1) theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning and downstream tasks, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.   
 
@@ -19,7 +19,7 @@ The list is organized as follows:
 - [Defense by Autoencoders](#Defenses)  
 - [Miscellaneous](#Miscellaneous)  
 
-In each section, papers are primarily organized by topic, then by conferences, lastly by chronological order. A short summary will be accompanied below the paper if necessary. 🧑🏻‍🚀 denotes important papers from my own perspective.
+In each section, papers are primarily organized by topic, then by conferences, lastly by chronological order. A short summary will be accompanied below the paper if necessary. 🧑🏻‍🚀 denotes important papers from my own perspective. 🐣 refers to the ones I haven't read but they look interesting, and would be added a summary below later. 
 <br>
 
 ## Survey
@@ -44,10 +44,23 @@ David Stutz, Matthias Hein, Bernt Schiele
 > 3. Regular robutsness and generalization are not contradicting.  
 <br>
 
+**Guess First to Enable Better Compression and Adversarial Robustness** [[link](https://arxiv.org/abs/2001.03311)]  
+Sicheng Zhu, Bang An, Shiyu Niu  
+*Information Theory and Machine Learning Workshop, NIPS, 2019*  
+> This paper shows that better compression ($I(X; Z)$) and less label information ($I(Z; Y)$) improves adversarial robustness. This two properties can be useful in designing robust AEs for downstream tasks.    
+<br>
+
+🧑🏻‍🚀 **Towards a Theoretical Understanding of the Robustness of Variational Autoencoders** [[link](https://arxiv.org/abs/2007.07365)]  
+Alexander Camuto, Matthew Willetts, Stephen Roberts, Chris Holmes, Tom Rainforth  
+*Preprint, 2020*  
+> This paper provides a general metric to evaluate the robustness of probabilitic models: $r$-robustness.  
+> - Specifically, it shows that we are able to define a region which which any perturbation will produce a reconstruction similar to the original reconstruction.
+<br>
+
 ## Models
 **World Models** [[link](https://arxiv.org/abs/1803.10122)] [[website](https://worldmodels.github.io/)] [[talk](https://www.youtube.com/watch?v=HzA8LRqhujk&feature=youtu.be)]     
 David Ha, Jürgen Schmidhuber  
-**NIPS, 2018**  
+*NIPS, 2018*  
 > One of the greatest paper in NIPS. Its subtitle is: *Can Agents Learn Inside of Their Own Dreams?*  
 > The World Model can be conceived as this two-stage process:  
 > 1. Learn a **compressed** representation of the environment in an **unsupervised manner**;  
@@ -57,6 +70,11 @@ David Ha, Jürgen Schmidhuber
 **From Variational to Deterministic Autoencoders** [[link](https://openreview.net/forum?id=S1g7tpEYDS)] [[code](https://github.com/ParthaEth/Regularized_autoencoders-RAE-)]  
 Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scholkopf  
 *ICLR, 2020*  
+<br>
+
+**Provably robust deep generative models** [[link](https://arxiv.org/abs/2004.10608)]  
+Filipe Condessa, Zico Kolter  
+*Preprint, 2020*  
 <br>
 
 ## Applications
@@ -115,18 +133,44 @@ D. Pasquini, M. Mingione, M. Bernaschi
 *IEEE European Symposium on Security and Privacy Workshops (Euro S&PW, 2019)*  
 <br>
 
-**Towards Feature Space Adversarial Attack** [[link](https://arxiv.org/abs/2004.12385)]   
+🐣 **Towards Feature Space Adversarial Attack** [[link](https://arxiv.org/abs/2004.12385)]   
 Xu Q, Tao G, Cheng S, Tan L, Zhang X.  
 *Preprint, 2020*   
 <br>
 
+🐣 **Type I Attack for Generative Models** [[link]](https://arxiv.org/abs/2003.01872)  
+Chengjin Sun, Sizhe Chen, Jia Cai, Xiaolin Huang  
+*Preprint, 2020*   
+> One example attack on VAE by this paper is that the proposed attack can change an original image significantly to a meaningless one but their reconstruction results are similar. 
+<br> 
+
+🐣 **On Breaking Deep Generative Model-based Defenses and Beyond** [[https://proceedings.icml.cc/static/paper_files/icml/2020/2236-Paper.pdf](link)]  
+Yanzhi Chen, Renjie Xie, Zhanxing Zhu  
+*ICML, 2020*  
+
 ## Defenses  
+**Deep Variational Information Bottleneck** [[link](https://arxiv.org/abs/1612.00410)]  
+Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy  
+*ICLR, 2017*  
+<br>
+
+**Adversarial Defense of Image Classification Using a Variational Auto-Encoder** [[link](https://arxiv.org/abs/1812.02891)]   
+Yi Luo, Henry Pfister  
+*Preprint, 2018*  
+<br>
+
 **Are Generative Classifiers More Robust to Adversarial Attacks?** [[link](https://openreview.net/forum?id=BkVmRByPG)]   
 Yingzhen Li   
 *Rejected by ICLR Workshop, 2018*   
 > This paper is more on the robustness of bayes classifiers compared to deterministic classifiers.  
 > - Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
 > - It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
+<br>
+
+**Sufficient Conditions for Robustness to Adversarial Examples: a Theoretical and Empirical Study with Bayesian Neural Networks**  [[link](https://openreview.net/forum?id=B1eZRiC9YX)]  
+*Rejected by ICLR Workshop, 2019*   
+Yarin Gal, Lewis Smith  
+> This paper proves, under two sufficient conditions, that idealised models can have no adversarial examples.
 <br>
 
 🧑🏻‍🚀 **Improving VAE's Robutsness to Adversarial Attacks** [[link](http://www.robots.ox.ac.uk/~twgr/assets/pdf/willetts2020disentangling.pdf)]  
@@ -147,14 +191,56 @@ J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee
 *ICCV, 2019*   
 <br>
 
+**Resisting Adversarial Attacks Using Gaussian Mixture Variational Autoencoders** [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/3828)]   
+Partha Ghosh, Arpan Losalka, Michael J. Black  
+*AAAI, 2019*
+<br>
+
+**Defense-VAE: A Fast and Accurate Defense Against Adversarial Attacks** [[link](https://link.springer.com/chapter/10.1007/978-3-030-43887-6_15)]   
+Xiang Li, Shihao Ji   
+*PKDD, 2019*  
+> This paper uses VAE to purge adversarial perturbations from contaminated images, and shows this preprocessing can help defend both white-box and black-box attacks.
+<br>
+
+**Bridging Adversarial Robustness and Gradient Interpretability** [[link](https://arxiv.org/abs/1903.11626)]   
+Beomsu Kim, Junghoon Seo, Taegyun Jeon  
+*Safe Machine Learning Worshop of ICLR, 2019*  
+> - This papers shows that adversarial training makes gradients more interpretable. 
+> - It also shows that there is a trade-off between test accuracy and gradient interpretability.
+> - It then provides ways to mitigate this trade-off.
+<br>
+
+🧑🏻‍🚀 **Adversarially Robust Representations with Smooth Encoders** [[link](https://openreview.net/forum?id=H1gfFaEYDS)]  
+Taylan Cemgil, Sumedh Ghaisas, Krishnamurthy (Dj) Dvijotham, Pushmeet Kohli  
+*ICLR, 2020*  
+<br>
+
 **Evaluating the Robustness of Defense Mechanisms based on AutoEncoder Reconstructions against Carlini-Wagner Adversarial Attacks** [[link]](https://septentrio.uit.no/index.php/nldl/article/view/5173)   
 Petru Hlihor, Riccardo Volpi, Luigi Malagò   
 *Proceedings of the Northern Lights Deep Learning Workshop, 2020*   
-> This paper shows that reconstruction by autoencoders is an effective preprocessing approach on images to defend common adversarial attacks. 
+> Similar to the above one, this paper shows that reconstruction by autoencoders is an effective preprocessing approach on images to defend common adversarial attacks. 
+<br>
+
+**Double Backpropagation for Training Autoencoders against Adversarial Attack** [[link](https://arxiv.org/abs/2003.01895)]  
+Chengjin Sun, Sizhe Chen, Xiaolin Huang  
+*Preprint, 2020*  
+> This paper proposes a training procedure to enhance the robustness of AEs.  
+> - It is based on the observation that AEs are sensitive to inputs, i.e., one can slightly modify an input but has totally different codes.  
+> - Therefore, the authors restrict gradients from the reconstruction image to the original one, making AEs less sensitive to small perturbation.
+<br>
+
+**Defending Adversarial Attacks via Semantic Feature Manipulation**  [[link](https://arxiv.org/abs/2002.02007)]  
+Shuo Wang, Tianle Chen, Surya Nepal, Carsten Rudolph, Marthie Grobler, Shangyu Chen  
+*Preprint, 2020*  
+<br>
+
+**ARAE: Adversarially Robust Training of Autoencoders Improves Novelty Detection**  [[link](https://arxiv.org/abs/2003.05669)]  
+Mohammadreza Salehi, Atrin Arya, Barbod Pajoum, Mohammad Otoofi, Amirreza Shaeiri, Mohammad Hossein Rohban, Hamid R. Rabiee  
+*Preprint, 2020*  
 <br>
 
 ## Miscellaneous 
-(*This section can be skipped.*)  
+(*This section is not so relevant and can be skipped.*)  
 
 **Perturbation Analysis of Learning Algorithms: A Unifying Perspective on Generation of Adversarial Examples** [[link](https://arxiv.org/abs/1812.07385)]  
 Emilio Rafael Balda, Arash Behboodi, Rudolf Mathar  
@@ -170,12 +256,3 @@ Emilio Rafael Balda Cañizares
 **Protecting Against Image Translation Deepfakes by Leaking Universal Perturbations from Black-Box Neural Networks** [[link](https://arxiv.org/abs/2006.06493)]  
 Nataniel Ruiz, Sarah Adel Bargal, Stan Sclaroff  
 *Preprint, 2020*  
-
-[[link]()] 
-
-
-
-
-
-
-
