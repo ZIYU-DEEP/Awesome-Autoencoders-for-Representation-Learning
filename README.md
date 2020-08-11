@@ -44,26 +44,17 @@ Pedro Tabacof, Julia Tavares, Eduardo Valle
 George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle   
 *Preprint, 2018*  
 [link]  
-> Provides 3 different schemes resulting in reconstruction change.
-
-
+> Provides 3 different schemes resulting in reconstruction change.  
 
 **Adversarial Examples for Generative Models**  
 Jernej Kos, Ian Fischer, Dawn Song  
 *IEEE S&P Workshops, 2018*  
 [link]  
 
-
-
-
-
-> **Constructing Unrestricted Adversarial Examples with Generative Models**
->
-> Yang Song, Rui Shu, Nate Kushman, Stefano Ermon
->
-> NIPS, 2018
->
-> [[link](https://arxiv.org/abs/1805.07894)] [[code](https://github.com/ermongroup/generative_adversary)]
+**Constructing Unrestricted Adversarial Examples with Generative Models**  
+Yang Song, Rui Shu, Nate Kushman, Stefano Ermon  
+NIPS, 2018  
+[[link](https://arxiv.org/abs/1805.07894)] [[code](https://github.com/ermongroup/generative_adversary)]  
 
 
 
