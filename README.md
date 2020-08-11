@@ -24,27 +24,27 @@ Papers are generally listed in chronological order and organized by different co
 
 ### Reviews
 
-> **Recent Advances in Autoencoder-Based Representation Learning**
-> Michael Tschannen, Olivier Bachem, Mario Lucic
-> *3rd workshop on Bayesian Deep Learning (NeurIPS 2018)*
-> [[link](https://arxiv.org/abs/1812.05069)] 
+**Recent Advances in Autoencoder-Based Representation Learning**  
+Michael Tschannen, Olivier Bachem, Mario Lucic  
+*3rd workshop on Bayesian Deep Learning (NeurIPS 2018)*  
+[[link](https://arxiv.org/abs/1812.05069)]   
 
 
 
 ### Attacks
 
-> **Adversarial Images for Variational Autoencoders**
-> Pedro Tabacof, Julia Tavares, Eduardo Valle
-> *Preprint, 2016*
-> [link]
+**Adversarial Images for Variational Autoencoders**  
+Pedro Tabacof, Julia Tavares, Eduardo Valle  
+*Preprint, 2016*  
+[link]  
 
 
-'''
-**Adversarial Attacks on Variational Autoencoders**  
-George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle  
+
+**Adversarial Attacks on Variational Autoencoders**   
+George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle   
 *Preprint, 2018*  
-[link] 
-'''
+[link]  
+> Provides 3 different schemes resulting in reconstruction change.
 
 
 
