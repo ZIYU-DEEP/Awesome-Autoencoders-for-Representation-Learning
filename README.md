@@ -5,13 +5,13 @@
 ## Introduction
 The dimension-reduction and generative nature of autoencoder-based models enables them for representation learning (e.g. using VAE as the feature extractor). This is particularly helpful when there is abundunt unlabeled data whereas labeled data is scarce (Sadati et al., 2019). In this curated list of literature review, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.  
 
-Papers are generally listed organized by different conferences in chronological order. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.   
+Papers listed are primarily organized by topic, then by conferences, and lastly by chronological order. A short summary will be accompanied below the paper if necessary. 🧑🏻‍🚀 denotes important papers from my own perspective.   
 
 We organize the list as follows:  
 - [Survey](#Survey)  
 - [Theory](#Theory)  
-- [Models](#Models)  
-- [Applications](#Applications)  
+- [Models](#Models) 
+- [Applications](#Applications) (Here we are specifically interested in using encoder outputs for downstream task.)    
 - [Attacks on Autoencoders](#Attacks)   
 - [Defense by Autoencoders](#Defenses)  
 - [Miscellaneous](#Miscellaneous)  
@@ -30,7 +30,7 @@ Naveed Akhtar, Ajmal Mian
 
 
 ## Theory
-**Disentangling Adversarial Robustness and Generalization** [[link](https://openaccess.thecvf.com/content_CVPR_2019/html/Stutz_Disentangling_Adversarial_Robustness_and_Generalization_CVPR_2019_paper.html)]  
+🧑🏻‍🚀 **Disentangling Adversarial Robustness and Generalization** [[link](https://openaccess.thecvf.com/content_CVPR_2019/html/Stutz_Disentangling_Adversarial_Robustness_and_Generalization_CVPR_2019_paper.html)]  
 David Stutz, Matthias Hein, Bernt Schiele  
 *CVPR, 2019*   
 > This papers shows that for a data manifold:  
@@ -46,6 +46,11 @@ Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scho
 <br>
 
 ## Applications
+**Variational Autoencoder for Semi-supervised Text Classification** [[link]()]  
+Weidi Xu, Haoze Sun, Chao Deng, Ying Tan  
+*AAAI, 2017*
+
+
 **Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records** [[link](https://www.semanticscholar.org/paper/Deep-Patient%3A-An-Unsupervised-Representation-to-the-Miotto-Li/18c39ba04333d31c6cb10faf79d1f18692c38d0f)]  
 R. Miotto, Li Li, B. Kidd, J. Dudley  
 *Scientific Reports, 2016*  
@@ -72,7 +77,7 @@ Pedro Tabacof, Julia Tavares, Eduardo Valle
 
 **Adversarial Attacks on Variational Autoencoders** [[link](https://arxiv.org/abs/1806.04646)]   
 George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle   
-*Preprint, 2018*  
+*CoRR, 2018*  
 <br>
 
 **Adversarial Examples for Generative Models** [[link](https://ieeexplore.ieee.org/abstract/document/8424630/)]  
@@ -110,13 +115,30 @@ Yingzhen Li
 > - It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
 <br>
 
+🧑🏻‍🚀 **Improving VAE's Robutsness to Adversarial Attacks** [[link](http://www.robots.ox.ac.uk/~twgr/assets/pdf/willetts2020disentangling.pdf)]  
+M Willetts, A Camuto, S Roberts, C Holmes  
+*Preprint, 2019*  
+> This paper introduces a hierarchical VAE which can improve adverarial robustness while preserving reconstruction ability.  
+> - This idea is based on the observation that disentangled representation improves robustness yet reducing the quality of reconsturction ability.
+<br>
+
 **Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks** [[link](http://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Evaluating_Robustness_of_Deep_Image_Super-Resolution_Against_Adversarial_Attacks_ICCV_2019_paper.html)]   
 J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee   
 *ICCV, 2019*   
 <br>
 
-## Miscellaneous
+**Evaluating the Robustness of Defense Mechanisms based on AutoEncoder Reconstructions against Carlini-Wagner Adversarial Attacks** [[link]](https://septentrio.uit.no/index.php/nldl/article/view/5173)   
+Petru Hlihor, Riccardo Volpi, Luigi Malagò   
+*Proceedings of the Northern Lights Deep Learning Workshop, 2020*   
+> This paper shows that reconstruction by autoencoders is an effective preprocessing approach on images to defend common adversarial attacks. 
+<br>
 
+## Miscellaneous
+**Perturbation Analysis of Learning Algorithms: A Unifying Perspective on Generation of Adversarial Examples** [[link](https://arxiv.org/abs/1812.07385)]  
+Emilio Rafael Balda, Arash Behboodi, Rudolf Mathar  
+*Preprint, 2018*  
+<br>
+[[link]()] 
 
 
 
