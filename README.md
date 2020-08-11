@@ -73,15 +73,15 @@ D. Pasquini, M. Mingione, M. Bernaschi
 <br>
 
 **Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks**    
-J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee  
-*ICCV, 2019*  
+J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee   
+*ICCV, 2019*   
 [[link](http://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Evaluating_Robustness_of_Deep_Image_Super-Resolution_Against_Adversarial_Attacks_ICCV_2019_paper.html)]  
 <br>
 
-**Towards Feature Space Adversarial Attack**  
-Xu Q, Tao G, Cheng S, Tan L, Zhang X. 
-*Preprint, 2020*  
-[[link](https://arxiv.org/abs/2004.12385)]  
+**Towards Feature Space Adversarial Attack**   
+Xu Q, Tao G, Cheng S, Tan L, Zhang X.  
+*Preprint, 2020*   
+[[link](https://arxiv.org/abs/2004.12385)]   
 <br>
 
 ## Defenses  
@@ -89,11 +89,11 @@ Xu Q, Tao G, Cheng S, Tan L, Zhang X.
 
 ## Miscellaneous
 **Are Generative Classifiers More Robust to Adversarial Attacks?**  
-Yingzhen Li  
-*Rejected by ICLR Workshop, 2018*  
+Yingzhen Li   
+*Rejected by ICLR Workshop, 2018*   
 [[link](https://openreview.net/forum?id=BkVmRByPG)]  
-> This paper is more on the robustness of bayes classifiers compared to deterministic classifiers. Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
-> It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
+> - This paper is more on the robustness of bayes classifiers compared to deterministic classifiers. Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
+> - It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
 <br>
 
 
