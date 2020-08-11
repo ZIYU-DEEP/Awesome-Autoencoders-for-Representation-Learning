@@ -37,19 +37,19 @@ Michael Tschannen, Olivier Bachem, Mario Lucic
 **Adversarial Images for Variational Autoencoders**  
 Pedro Tabacof, Julia Tavares, Eduardo Valle  
 *Preprint, 2016*  
-[link](https://arxiv.org/abs/1612.00155)  
+[[link](https://arxiv.org/abs/1612.00155)]  
 <br>
 
 **Adversarial Attacks on Variational Autoencoders**   
 George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle   
 *Preprint, 2018*  
-[link](https://arxiv.org/abs/1806.04646)   
+[[link](https://arxiv.org/abs/1806.04646)]   
 <br>
 
 **Adversarial Examples for Generative Models**  
 Jernej Kos, Ian Fischer, Dawn Song  
 *IEEE S&P Workshops, 2018*  
-[link](https://ieeexplore.ieee.org/abstract/document/8424630/) 
+[[link](https://ieeexplore.ieee.org/abstract/document/8424630/)] 
 > Provides 3 different schemes resulting in reconstruction change. 
 <br>
 
