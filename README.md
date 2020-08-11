@@ -2,13 +2,10 @@
 
 ## Introduction
 The dimension-reduction and generative nature of autoencoder-based models enables them for representation learning (e.g. using VAE as the feature extractor). This is particularly helpful when there is abundunt unlabeled data whereas labeled data is scarce (Sadati et al., 2019). In this curated list of literature review, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.  
-<br>
 
-## Format
 Papers are generally listed organized by different conferences in chronological order. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.   
-<br>
 
-## Categories
+We organize the list as follows:  
 [Survey](#Survey)  
 [Theory](#Theory)  
 [Models](#Models)  
