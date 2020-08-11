@@ -6,13 +6,13 @@ The dimension-reduction and generative nature of autoencoder-based models enable
 Papers are generally listed organized by different conferences in chronological order. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.   
 
 We organize the list as follows:  
-[Survey](#Survey)  
-[Theory](#Theory)  
-[Models](#Models)  
-[Applications](#Applications)  
-[Attacks on Autoencoders](#Attacks)   
-[Defense by Autoencoders](#Defenses)  
-[Miscellaneous](#Miscellaneous)  
+- [Survey](#Survey)  
+- [Theory](#Theory)  
+- [Models](#Models)  
+- [Applications](#Applications)  
+- [Attacks on Autoencoders](#Attacks)   
+- [Defense by Autoencoders](#Defenses)  
+- [Miscellaneous](#Miscellaneous)  
 <br>
 
 ## Survey
