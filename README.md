@@ -39,24 +39,19 @@ Papers are generally listed in chronological order and organized by different co
 > [link]
 
 
-
-**Adversarial Attacks on Variational Autoencoders**
-
-George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle
-
-*Preprint, 2018*
-
-[link]
+'''
+**Adversarial Attacks on Variational Autoencoders**  
+George Gondim-Ribeiro, Pedro Tabacof, Eduardo Valle  
+*Preprint, 2018*  
+[link] 
+'''
 
 
 
-**Adversarial Examples for Generative Models**
-
-Jernej Kos, Ian Fischer, Dawn Song
-
-*IEEE S&P Workshops, 2018*
-
-[link]
+**Adversarial Examples for Generative Models**  
+Jernej Kos, Ian Fischer, Dawn Song  
+*IEEE S&P Workshops, 2018*  
+[link]  
 
 
 
