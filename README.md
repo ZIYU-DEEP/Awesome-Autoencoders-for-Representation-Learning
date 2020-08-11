@@ -4,7 +4,7 @@
 
 ## Introduction
 The **bottlenecked** nature empowered autoencoder-based models (AEs) the ability to learn features of input data; the **unsupervised** and 
-**generative nature** of AEs further facilitate the generalizability of the learned features, which is particularly useful in the scenario when unlabeled data is abundant whereas labeled data is scarce.  
+**generative** nature of AEs further facilitate the generalizability of the learned features, which is particularly useful in the scenario when unlabeled data is abundant whereas labeled data is scarce.  
 
 Down to a science, the future of machine learning to solve real-world tasks is likely to be generative models (to pretrain) followed by discriminative models (to predict). AEs (especially its variational families), as an important member of generative models, thus becomes crucial to study.  
  
@@ -144,7 +144,7 @@ Chengjin Sun, Sizhe Chen, Jia Cai, Xiaolin Huang
 > One example attack on VAE by this paper is that the proposed attack can change an original image significantly to a meaningless one but their reconstruction results are similar. 
 <br> 
 
-🐣 **On Breaking Deep Generative Model-based Defenses and Beyond** [[https://proceedings.icml.cc/static/paper_files/icml/2020/2236-Paper.pdf](link)]  
+🐣 **On Breaking Deep Generative Model-based Defenses and Beyond** [[link](https://proceedings.icml.cc/static/paper_files/icml/2020/2236-Paper.pdf)]  
 Yanzhi Chen, Renjie Xie, Zhanxing Zhu  
 *ICML, 2020*  
 
