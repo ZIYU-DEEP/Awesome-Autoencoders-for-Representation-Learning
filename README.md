@@ -1,7 +1,7 @@
 # Awesome Autoencoder for Representation Learning
 
 ## Introduction
-This is a curated list of recent literature on autoencoders for representation learning. The unsupervised and generative nature of autoencoder-based models makes them popular tools for representation learning (e.g. using VAE as the feature extractor). In this list, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders (p.s. we may also include some not so autoencoder related papers in this third part).  
+The dimension-reduction and generative nature of autoencoder-based models enables them for representation learning (e.g. using VAE as the feature extractor). This is particularly helpful when there is abundunt unlabeled data whereas labeled data is scarce (Sadati et al., 2019). In this curated list of literature review, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.  
 <br>
 
 ## Format
@@ -51,6 +51,17 @@ Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scho
 <br>
 
 ## Applications
+**Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records** [[link](https://www.semanticscholar.org/paper/Deep-Patient%3A-An-Unsupervised-Representation-to-the-Miotto-Li/18c39ba04333d31c6cb10faf79d1f18692c38d0f)]  
+R. Miotto, Li Li, B. Kidd, J. Dudley  
+*Scientific Reports, 2016*  
+> This paper uses a 3-layer denoising autoencoder to learn representations for raw EHR data.
+<br>
+
+**Representation Learning with Autoencoders for Electronic Health Records: A Comparative Study**  
+Najibesadat Sadati, Milad Zafar Nezhad, Ratna Babu Chinnam, Dongxiao Zhu  
+*Preprint, 2019*  
+[[link](https://arxiv.org/abs/1801.02961)] 
+> The idea is to use autoencoder to extract features of EHR data, then build prediction models on top of them.
 <br>
 
 ## Attacks
