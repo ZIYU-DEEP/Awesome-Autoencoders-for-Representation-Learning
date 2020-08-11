@@ -105,7 +105,8 @@ Xu Q, Tao G, Cheng S, Tan L, Zhang X.
 **Are Generative Classifiers More Robust to Adversarial Attacks?** [[link](https://openreview.net/forum?id=BkVmRByPG)]   
 Yingzhen Li   
 *Rejected by ICLR Workshop, 2018*   
-> - This paper is more on the robustness of bayes classifiers compared to deterministic classifiers. Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
+> This paper is more on the robustness of bayes classifiers compared to deterministic classifiers.  
+> - Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
 > - It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
 <br>
 
