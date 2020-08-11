@@ -10,10 +10,10 @@ Papers are generally listed in chronological order and organized by different co
 
 ## Categories
 [Survey](#Survey)  
-[Theory](#Theory)
-[Models](#Models)
-[Applications](#Applications)
-[Attacks on Autoencoders](#Attacks)  
+[Theory](#Theory)  
+[Models](#Models)  
+[Applications](#Applications)  
+[Attacks on Autoencoders](#Attacks)   
 [Defense by Autoencoders](#Defenses)  
 <br>
 
