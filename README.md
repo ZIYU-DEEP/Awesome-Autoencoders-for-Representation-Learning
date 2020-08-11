@@ -3,11 +3,14 @@
 <br>
 
 ## Introduction
-The dimension-reduction and generative nature of autoencoder-based models enables them for representation learning (e.g. using VAE as the feature extractor). This is particularly helpful when there is abundunt unlabeled data whereas labeled data is scarce (Sadati et al., 2019). In this curated list of literature review, we will focus on (1) recent theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.  
+The **bottlenecked** nature empowered autoencoder-based models (AEs) the ability to learn features of input data; the **unsupervised** and 
+**generative nature** of AEs further facilitate the generalizability of the learned features, which is particularly useful in the scenario when unlabeled data is abundant whereas labeled data is scarce.  
 
-Papers listed are primarily organized by topic, then by conferences, and lastly by chronological order. A short summary will be accompanied below the paper if necessary. 🧑🏻‍🚀 denotes important papers from my own perspective.   
+Down to a science, the future of machine learning to solve real-world tasks is likely to be generative models followed by discriminative models. AEs (especially its variational families), as an important member of generative models, thus becomes crucial to study.  
+ 
+In this curated list of literature review, we will focus on recent (1) theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning and downstream tasks, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.   
 
-We organize the list as follows:  
+The list is organized as follows:  
 - [Survey](#Survey)  
 - [Theory](#Theory)  
 - [Models](#Models) 
@@ -15,6 +18,8 @@ We organize the list as follows:
 - [Attacks on Autoencoders](#Attacks)   
 - [Defense by Autoencoders](#Defenses)  
 - [Miscellaneous](#Miscellaneous)  
+
+In each section, papers are primarily organized by topic, then by conferences, lastly by chronological order. A short summary will be accompanied below the paper if necessary. 🧑🏻‍🚀 denotes important papers from my own perspective.
 <br>
 
 ## Survey
@@ -67,7 +72,7 @@ R. Miotto, Li Li, B. Kidd, J. Dudley
 <br>
 
 **Semi-Supervised Learning of the Electronic Health Record for Phenotype Stratification** [[link](https://www.sciencedirect.com/science/article/pii/S153204641630140X)]  
-Brett K. Beaulieu-Jonesab, Casey S.Green  
+Brett K. Beaulieu-Jonesab, Casey S. Green  
 *Journal of Biomedical Informatics, 2016*  
 > This paper uses the enoising autoencoder with the random forest classifier to predict survival rates of patients.
 <br>
