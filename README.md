@@ -1,15 +1,18 @@
 # Awesome Autoencoder for Representation Learning
 
 ## Introduction
-This is a curated list of recent literature on autoencoders for representation learning. The unsupervised and generative nature makes autoencoder-based models 
+This is a curated list of recent literature on autoencoders for representation learning. The unsupervised and generative nature makes autoencoder-based models a 
 <br>
 
 ## Format
-Papers are generally listed in chronological order and organized by different conferences. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.
+Papers are generally listed in chronological order and organized by different conferences. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.  
 <br>
 
 ## Categories
 [Survey](#Survey)  
+[Theory](#Theory)
+[Models](#Models)
+[Applications](#Applications)
 [Attacks on Autoencoders](#Attacks)  
 [Defense by Autoencoders](#Defenses)  
 <br>
@@ -19,6 +22,15 @@ Papers are generally listed in chronological order and organized by different co
 Michael Tschannen, Olivier Bachem, Mario Lucic  
 *3rd workshop on Bayesian Deep Learning (NeurIPS 2018)*  
 [[link](https://arxiv.org/abs/1812.05069)]   
+<br>
+
+## Theory
+<br>
+
+## Models
+<br>
+
+## Applications
 <br>
 
 ## Attacks
