@@ -5,7 +5,7 @@ The dimension-reduction and generative nature of autoencoder-based models enable
 <br>
 
 ## Format
-Papers are generally listed organized by different conferences in chronological order. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.  
+Papers are generally listed organized by different conferences in chronological order. A short summary is provided below each paper. 🧑🏻‍🚀 denotes important papers from my own perspective.   
 <br>
 
 ## Categories
@@ -15,7 +15,7 @@ Papers are generally listed organized by different conferences in chronological 
 [Applications](#Applications)  
 [Attacks on Autoencoders](#Attacks)   
 [Defense by Autoencoders](#Defenses)  
-[Miscellaneous](#Miscellaneous)
+[Miscellaneous](#Miscellaneous)  
 <br>
 
 ## Survey
@@ -53,10 +53,16 @@ R. Miotto, Li Li, B. Kidd, J. Dudley
 > This paper uses a 3-layer denoising autoencoder to learn representations for raw EHR data.
 <br>
 
+**Semi-Supervised Learning of the Electronic Health Record for Phenotype Stratification** [[link](https://www.sciencedirect.com/science/article/pii/S153204641630140X)]  
+Brett K. Beaulieu-Jonesab, Casey S.Green  
+*Journal of Biomedical Informatics*  
+> This paper uses the enoising autoencoder with the random forest classifier to predict survival rates of patients.
+<br>
+
 **Representation Learning with Autoencoders for Electronic Health Records: A Comparative Study** [[link](https://arxiv.org/abs/1801.02961)]  
 Najibesadat Sadati, Milad Zafar Nezhad, Ratna Babu Chinnam, Dongxiao Zhu  
 *Preprint, 2019*  
-> The idea is to use autoencoder to extract features of EHR data, then build prediction models on top of them.
+> This paper gives a general framework of using autoencoder to extract features of EHR data, then build prediction models on top of them.
 <br>
 
 ## Attacks
@@ -81,7 +87,7 @@ Yang Song, Rui Shu, Nate Kushman, Stefano Ermon
 *NIPS, 2018*  
 <br>
 
-**When Deep Fool Meets Deep Prior: Adversarial Attack on Super-Resolution Network** [[link](https://scholar.google.com/scholar_url?url=https://dl.acm.org/doi/abs/10.1145/3240508.3240603%3Fcasa_token%3DmVORIJYgzAMAAAAA:xEcap40LdiR67ExAX_Fw4RPCEOIEVS6iyt7jpLpNcpwWNfpQqBYbEISJpKGdCKUhLAdYsqoLdwpYsQ&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=9750722567383918778&ei=5m4yX_ewIbuB6rQPkoaAuAc&scisig=AAGBfm1V9jZxniRZjaQDzvt_iilCt1Je9g)]
+**When Deep Fool Meets Deep Prior: Adversarial Attack on Super-Resolution Network** [[link](https://scholar.google.com/scholar_url?url=https://dl.acm.org/doi/abs/10.1145/3240508.3240603%3Fcasa_token%3DmVORIJYgzAMAAAAA:xEcap40LdiR67ExAX_Fw4RPCEOIEVS6iyt7jpLpNcpwWNfpQqBYbEISJpKGdCKUhLAdYsqoLdwpYsQ&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=9750722567383918778&ei=5m4yX_ewIbuB6rQPkoaAuAc&scisig=AAGBfm1V9jZxniRZjaQDzvt_iilCt1Je9g)]  
 Minghao Yin, Yongbing Zhang, Xiu Li, Shiqi Wang  
 *Proceedings of the 26th ACM international conference on Multimedia (MM, 2018)*   
 <br>
