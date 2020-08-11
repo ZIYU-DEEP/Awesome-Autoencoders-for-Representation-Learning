@@ -11,7 +11,7 @@ We organize the list as follows:
 - [Survey](#Survey)  
 - [Theory](#Theory)  
 - [Models](#Models) 
-- [Applications](#Applications) (Here we are specifically interested in using encoder outputs for downstream task.)    
+- [Applications](#Applications) (Here we are specifically interested in applications using encoder outputs for downstream task.)    
 - [Attacks on Autoencoders](#Attacks)   
 - [Defense by Autoencoders](#Defenses)  
 - [Miscellaneous](#Miscellaneous)  
@@ -40,16 +40,25 @@ David Stutz, Matthias Hein, Bernt Schiele
 <br>
 
 ## Models
+**World Models** [[link](https://arxiv.org/abs/1803.10122)] [[website](https://worldmodels.github.io/)] [[talk](https://www.youtube.com/watch?v=HzA8LRqhujk&feature=youtu.be)]     
+David Ha, Jürgen Schmidhuber  
+**NIPS, 2018**  
+> One of the greatest paper in NIPS. Its subtitle is: *Can Agents Learn Inside of Their Own Dreams?*  
+> The World Model can be conceived as this two-stage process:  
+> 1. Learn a **compressed** representation of the environment in an **unsupervised manner**;  
+> 2. Use the learned representation to train a policy to solve downstream tasks.
+<br>
+
 **From Variational to Deterministic Autoencoders** [[link](https://openreview.net/forum?id=S1g7tpEYDS)] [[code](https://github.com/ParthaEth/Regularized_autoencoders-RAE-)]  
 Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scholkopf  
 *ICLR, 2020*  
 <br>
 
 ## Applications
-**Variational Autoencoder for Semi-supervised Text Classification** [[link]()]  
+**Variational Autoencoder for Semi-supervised Text Classification** [[link](https://arxiv.org/abs/1603.02514)]  
 Weidi Xu, Haoze Sun, Chao Deng, Ying Tan  
-*AAAI, 2017*
-
+*AAAI, 2017*  
+<br>
 
 **Deep Patient: An Unsupervised Representation to Predict the Future of Patients from the Electronic Health Records** [[link](https://www.semanticscholar.org/paper/Deep-Patient%3A-An-Unsupervised-Representation-to-the-Miotto-Li/18c39ba04333d31c6cb10faf79d1f18692c38d0f)]  
 R. Miotto, Li Li, B. Kidd, J. Dudley  
@@ -59,7 +68,7 @@ R. Miotto, Li Li, B. Kidd, J. Dudley
 
 **Semi-Supervised Learning of the Electronic Health Record for Phenotype Stratification** [[link](https://www.sciencedirect.com/science/article/pii/S153204641630140X)]  
 Brett K. Beaulieu-Jonesab, Casey S.Green  
-*Journal of Biomedical Informatics*  
+*Journal of Biomedical Informatics, 2016*  
 > This paper uses the enoising autoencoder with the random forest classifier to predict survival rates of patients.
 <br>
 
@@ -122,6 +131,12 @@ M Willetts, A Camuto, S Roberts, C Holmes
 > - This idea is based on the observation that disentangled representation improves robustness yet reducing the quality of reconsturction ability.
 <br>
 
+**Certified Robustness to Adversarial Examples with Differential Privacy**  [[link](https://arxiv.org/abs/1802.03471)]  
+Mathias Lecuyer, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Suman Jana  
+*Preprint, 2019*  
+> This paper provides a defense which could be done in the feature space (by adversarial smoothing).
+<br>
+
 **Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks** [[link](http://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Evaluating_Robustness_of_Deep_Image_Super-Resolution_Against_Adversarial_Attacks_ICCV_2019_paper.html)]   
 J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee   
 *ICCV, 2019*   
@@ -133,11 +148,24 @@ Petru Hlihor, Riccardo Volpi, Luigi Malagò
 > This paper shows that reconstruction by autoencoders is an effective preprocessing approach on images to defend common adversarial attacks. 
 <br>
 
-## Miscellaneous
+## Miscellaneous 
+(*This section can be skipped.*)  
+
 **Perturbation Analysis of Learning Algorithms: A Unifying Perspective on Generation of Adversarial Examples** [[link](https://arxiv.org/abs/1812.07385)]  
 Emilio Rafael Balda, Arash Behboodi, Rudolf Mathar  
 *Preprint, 2018*  
 <br>
+
+**Robustness Analysis of Deep Neural Networks in the Presence of Adversarial Perturbations and Noisy Labels** [[link](https://www.ti.rwth-aachen.de/diss/Emilio_Rafael_Balda.pdf)]   
+Emilio Rafael Balda Cañizares  
+*Preprint, 2019*  
+> This paper provides an information-theoretical view on learning with noisy labels.
+<br>
+
+**Protecting Against Image Translation Deepfakes by Leaking Universal Perturbations from Black-Box Neural Networks** [[link](https://arxiv.org/abs/2006.06493)]  
+Nataniel Ruiz, Sarah Adel Bargal, Stan Sclaroff  
+*Preprint, 2020*  
+
 [[link]()] 
 
 
