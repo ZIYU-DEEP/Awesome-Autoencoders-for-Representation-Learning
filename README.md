@@ -9,9 +9,9 @@ Papers are generally listed in chronological order and organized by different co
 <br>
 
 ## Categories
-[Survey](#Survey)
-[Attacks on Autoencoders](#Attacks on Autoencoders)
-[Defense by Autoencoders](#Defense by Autoencoders)
+[Survey](#Survey)  
+[Attacks on Autoencoders](#Attacks)  
+[Defense by Autoencoders](#Defenses)  
 <br>
 
 ## Survey
@@ -21,7 +21,7 @@ Michael Tschannen, Olivier Bachem, Mario Lucic
 [[link](https://arxiv.org/abs/1812.05069)]   
 <br>
 
-## Attacks on Autoencoders
+## Attacks
 **Adversarial Images for Variational Autoencoders**  
 Pedro Tabacof, Julia Tavares, Eduardo Valle  
 *Preprint, 2016*  
@@ -47,7 +47,7 @@ NIPS, 2018
 [[link](https://arxiv.org/abs/1805.07894)] [[code](https://github.com/ermongroup/generative_adversary)]  
 <br>
 
-## Defense on Autoencoders
+## Defenses
 
 
 
