@@ -154,6 +154,11 @@ Yang Song, Rui Shu, Nate Kushman, Stefano Ermon
 *NIPS, 2018*  
 <br>
 
+**LatentPoison - Adversarial Attacks On The Latent Space** [[link](https://arxiv.org/abs/1711.02879v1)]  
+Antonia Creswell, Anil A. Bharath, Biswa Sengupta  
+*Rejected by ICLR, 2018*  
+<br>
+
 **When Deep Fool Meets Deep Prior: Adversarial Attack on Super-Resolution Network** [[link](https://scholar.google.com/scholar_url?url=https://dl.acm.org/doi/abs/10.1145/3240508.3240603%3Fcasa_token%3DmVORIJYgzAMAAAAA:xEcap40LdiR67ExAX_Fw4RPCEOIEVS6iyt7jpLpNcpwWNfpQqBYbEISJpKGdCKUhLAdYsqoLdwpYsQ&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=9750722567383918778&ei=5m4yX_ewIbuB6rQPkoaAuAc&scisig=AAGBfm1V9jZxniRZjaQDzvt_iilCt1Je9g)]  
 Minghao Yin, Yongbing Zhang, Xiu Li, Shiqi Wang  
 *Proceedings of the 26th ACM international conference on Multimedia (MM, 2018)*   
@@ -162,6 +167,16 @@ Minghao Yin, Yongbing Zhang, Xiu Li, Shiqi Wang
 **Adversarial Out-domain Examples for Generative Models** [[link](https://ieeexplore.ieee.org/abstract/document/8802456/?casa_token=5pJGy5iWsJgAAAAA:z10cWZLFJOM-ArPQgnMsWOueed-0OqhGxLziBxmLjjqMVRdJnzIaJ1AIoL0kk9YN1bPHi8twbQ)]   
 D. Pasquini, M. Mingione, M. Bernaschi  
 *IEEE European Symposium on Security and Privacy Workshops (Euro S&PW, 2019)*  
+<br>
+
+**Performing Co-Membership Attacks Against Deep Generative Models** [[link](https://arxiv.org/abs/1805.09898v3)]  
+Kin Sum Liu, Chaowei Xiao, Bo Li, Jie Gao  
+*Preprint, 2019*  
+<br>
+
+**Man-in-the-Middle Attacks against Machine Learning Classifiers via Malicious Generative Models** [[link](https://arxiv.org/abs/1910.06838v1)]  
+Derui Wang, Chaoran Li, Sheng Wen, Surya Nepal, Yang Xiang  
+*Preprint, 2019*  
 <br>
 
 🐣 **Towards Feature Space Adversarial Attack** [[link](https://arxiv.org/abs/2004.12385)]   
@@ -192,9 +207,9 @@ Yi Luo, Henry Pfister
 *Preprint, 2018*  
 <br>
 
-**Are Generative Classifiers More Robust to Adversarial Attacks?** [[link](https://openreview.net/forum?id=BkVmRByPG)]   
-Yingzhen Li   
-*Rejected by ICLR Workshop, 2018*   
+🐣🧑🏻‍🚀 **Are Generative Classifiers More Robust to Adversarial Attacks?** [[link](https://arxiv.org/pdf/1802.06552v3.pdf)] [[code](https://github.com/deepgenerativeclassifier/DeepBayes)]   
+Yingzhen Li, John Bradshaw, Yash Sharma     
+*Rejected by ICLR Workshop, 2018; then accepted by ICML, 2019*   
 > This paper is more on the robustness of bayes classifiers compared to deterministic classifiers.  
 > - Notably, it applies generative modeling (variational inference) to improve original bayes classifers.  
 > - It implies that, generative models may fascilitate gradient masking which in turn become more robust to attacks. The stochastic nature of generative models may play an important role for gradient masking.
@@ -224,9 +239,10 @@ J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee
 *ICCV, 2019*   
 <br>
 
-🐣 **Resisting Adversarial Attacks Using Gaussian Mixture Variational Autoencoders** [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/3828)] [[video](https://www.youtube.com/watch?v=JfggOIjGEY8)]   
+🐣 **Resisting Adversarial Attacks Using Gaussian Mixture Variational Autoencoders** [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/3828)] [[video](https://www.youtube.com/watch?v=JfggOIjGEY8)] [[blog](https://towardsdatascience.com/resisting-adversarial-attacks-using-gaussian-mixture-variational-autoencoders-be98e69b5070)]     
 Partha Ghosh, Arpan Losalka, Michael J. Black  
-*AAAI, 2019*
+*AAAI, 2019*  
+> This paper is also relevant to VampPrior VAE ([link](http://proceedings.mlr.press/v84/tomczak18a/tomczak18a.pdf), [slides](https://jmtomczak.github.io/pdf/Tubingen_presentation_22_03_2018.pdf)).
 <br>
 
 **Defense-VAE: A Fast and Accurate Defense Against Adversarial Attacks** [[link](https://link.springer.com/chapter/10.1007/978-3-030-43887-6_15)]   
@@ -270,6 +286,12 @@ Shuo Wang, Tianle Chen, Surya Nepal, Carsten Rudolph, Marthie Grobler, Shangyu C
 **ARAE: Adversarially Robust Training of Autoencoders Improves Novelty Detection**  [[link](https://arxiv.org/abs/2003.05669)]  
 Mohammadreza Salehi, Atrin Arya, Barbod Pajoum, Mohammad Otoofi, Amirreza Shaeiri, Mohammad Hossein Rohban, Hamid R. Rabiee  
 *Preprint, 2020*  
+<br>
+
+🐣 **Metrics and Methods for Robustness Evaluation of Neural Networks with Generative Models** [[link](https://arxiv.org/abs/2003.01993v2)]  
+Igor Buzhinsky, Arseny Nerinovsky, Stavros Tripakis  
+*Preprint, 2020*  
+> This paper provides *latent space performance metrics* to evaluate models' robustness.
 <br>
 
 ## Miscellaneous 
