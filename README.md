@@ -72,6 +72,11 @@ David Ha, Jürgen Schmidhuber
 > 2. Use the learned representation to train a policy to solve downstream tasks.
 <br>
 
+**Supervised Autoencoders** [[link](https://papers.nips.cc/paper/7296-supervised-autoencoders-improving-generalization-performance-with-unsupervised-regularizers.pdf)]  
+Lei Le, Andrew Patterson, Martha White  
+*NIPS, 2018*   
+<br>
+
 **From Variational to Deterministic Autoencoders** [[link](https://openreview.net/forum?id=S1g7tpEYDS)] [[code](https://github.com/ParthaEth/Regularized_autoencoders-RAE-)]  
 Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scholkopf  
 *ICLR, 2020*  
@@ -219,7 +224,7 @@ J. Choi, H. Zhang, J. Kim, C. Hsieh, J. Lee
 *ICCV, 2019*   
 <br>
 
-**Resisting Adversarial Attacks Using Gaussian Mixture Variational Autoencoders** [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/3828)]   
+🐣 **Resisting Adversarial Attacks Using Gaussian Mixture Variational Autoencoders** [[link](https://www.aaai.org/ojs/index.php/AAAI/article/view/3828)] [[video](https://www.youtube.com/watch?v=JfggOIjGEY8)]   
 Partha Ghosh, Arpan Losalka, Michael J. Black  
 *AAAI, 2019*
 <br>
