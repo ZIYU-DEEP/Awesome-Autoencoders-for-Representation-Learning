@@ -58,7 +58,12 @@ Alexander Camuto, Matthew Willetts, Stephen Roberts, Chris Holmes, Tom Rainforth
 <br>
 
 ## Models
-**World Models** [[link](https://arxiv.org/abs/1803.10122)] [[website](https://worldmodels.github.io/)] [[talk](https://www.youtube.com/watch?v=HzA8LRqhujk&feature=youtu.be)]     
+**Relational Autoencoder for Feature Extraction** [[link](https://arxiv.org/abs/1802.03145)]  
+Qinxue Meng, Daniel Catchpoole, David Skillicorn, Paul J. Kennedy  
+*International Joint Conference on Neural Networks (ICJNN), 2017*  
+<br>
+
+🧑🏻‍🚀 **World Models** [[link](https://arxiv.org/abs/1803.10122)] [[website](https://worldmodels.github.io/)] [[talk](https://www.youtube.com/watch?v=HzA8LRqhujk&feature=youtu.be)]     
 David Ha, Jürgen Schmidhuber  
 *NIPS, 2018*  
 > One of the greatest paper in NIPS. Its subtitle is: *Can Agents Learn Inside of Their Own Dreams?*  
@@ -72,12 +77,33 @@ Partha Ghosh, Mehdi S. M. Sajjadi, Antonio Vergari, Michael Black, Bernhard Scho
 *ICLR, 2020*  
 <br>
 
-**Provably robust deep generative models** [[link](https://arxiv.org/abs/2004.10608)]  
+🐣 **Parameterized Rate-Distortion Stochastic Encoder**  [[link](https://icml.cc/virtual/2020/poster/6252)]  
+Quan Hoang, Trung Le, Dinh Phung  
+*ICML, 2020*  
+<br>
+
+🐣 **Provably robust deep generative models** [[link](https://arxiv.org/abs/2004.10608)]  
 Filipe Condessa, Zico Kolter  
 *Preprint, 2020*  
 <br>
 
 ## Applications
+**Learning Visual Feature Spaces for Robotic Manipulation with Deep Spatial Autoencoders** [[link](https://arxiv.org/abs/1509.06113)]  
+Chelsea Finn, Xin Yu Tan, Yan Duan, Trevor Darrell, Sergey Levine, Pieter Abbeel  
+*International Conference on Robotics and Automation (ICRA), 2015*  
+<br>
+
+**Reinforcement Learning on Robot with Variational Auto-Encoder** [[link](https://link.springer.com/chapter/10.1007/978-981-15-0474-7_63)]  
+Yiwen Chen, Chenguang Yang, Ying Feng  
+*International Conference on Modelling, Identification and Control (ICMIC), 2019*  
+<br>
+
+**Autoencoder-Based Transfer Learning in Brain Computer Interface** [[link](https://journals.sagepub.com/doi/pdf/10.1177/1729881419840860)]  
+Chuanqi Tan, Fuchun Sun, Bin Fang, Tao Kong, Wenchang Zhang  
+*International Journal of Advanced Robotic Systems (IJARS), 2019*  
+> This authors propose to use autoencoder to extract EEG data; the extracted features are then used to do classification tasks. One interesting thing is that to tackle the sample scarcity in training the autoencoder, they first **transfer from ImageNet**.
+<br>
+
 **Variational Autoencoder for Semi-supervised Text Classification** [[link](https://arxiv.org/abs/1603.02514)]  
 Weidi Xu, Haoze Sun, Chao Deng, Ying Tan  
 *AAAI, 2017*  
@@ -147,6 +173,8 @@ Chengjin Sun, Sizhe Chen, Jia Cai, Xiaolin Huang
 🐣 **On Breaking Deep Generative Model-based Defenses and Beyond** [[link](https://proceedings.icml.cc/static/paper_files/icml/2020/2236-Paper.pdf)]  
 Yanzhi Chen, Renjie Xie, Zhanxing Zhu  
 *ICML, 2020*  
+<br>
+
 
 ## Defenses  
 **Deep Variational Information Bottleneck** [[link](https://arxiv.org/abs/1612.00410)]  
@@ -240,7 +268,7 @@ Mohammadreza Salehi, Atrin Arya, Barbod Pajoum, Mohammad Otoofi, Amirreza Shaeir
 <br>
 
 ## Miscellaneous 
-(*This section is not so relevant and can be skipped.*)  
+(*This section can be skipped. It is not so relevant to autoencoder and is more on adversarial attacks of feature space.*)  
 
 **Perturbation Analysis of Learning Algorithms: A Unifying Perspective on Generation of Adversarial Examples** [[link](https://arxiv.org/abs/1812.07385)]  
 Emilio Rafael Balda, Arash Behboodi, Rudolf Mathar  
@@ -256,3 +284,29 @@ Emilio Rafael Balda Cañizares
 **Protecting Against Image Translation Deepfakes by Leaking Universal Perturbations from Black-Box Neural Networks** [[link](https://arxiv.org/abs/2006.06493)]  
 Nataniel Ruiz, Sarah Adel Bargal, Stan Sclaroff  
 *Preprint, 2020*  
+<br>
+
+**Randomization matters How to defend against strong adversarial attacks** [[link](https://icml.cc/virtual/2020/poster/6157)]   
+Rafael Pinot, Raphael Ettedgui, Geovani Rizk, Yann Chevaleyre, Jamal Atif  
+*ICML, 2020*  
+<br>
+
+**Understanding and Mitigating the Tradeoff between Robustness and Accuracy** [[link](https://icml.cc/virtual/2020/poster/6801)]  
+Aditi Raghunathan, Sang Michael Xie, Fanny Yang, John Duchi, Percy Liang  
+*ICML, 2020*  
+> Traditional undertanding is that there exists a tradeoff between robust error (i.e. perturbed worst-case ones) and standard error (i.e. unperturbed ones). This paper suggests that this tradeoff can be well mitigated, i.e. we can improve robust error and standard error at the same time.
+<br>
+
+**Randomized Smoothing of All Shapes and Sizes** [[link](https://icml.cc/virtual/2020/poster/6327)]   
+Greg Yang, Tony Duan, J. Edward Hu, Hadi Salman, Ilya Razenshteyn, Jerry Li  
+*ICML, 2020*  
+<br>
+
+**Adversarial Neural Pruning with Latent Vulnerability Suppression** [[link](https://icml.cc/virtual/2020/poster/5877)]   
+Divyam Madaan, Jinwoo Shin, Sung Ju Hwang  
+*ICML, 2020*  
+<br>
+
+
+
+
