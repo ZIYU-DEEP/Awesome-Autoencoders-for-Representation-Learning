@@ -169,6 +169,12 @@ D. Pasquini, M. Mingione, M. Bernaschi
 *IEEE European Symposium on Security and Privacy Workshops (Euro S&PW, 2019)*  
 <br>
 
+🐣 **Generalizable Adversarial Attack Using Generative Models** [[link](https://www.semanticscholar.org/paper/Generalizable-Adversarial-Attacks-Using-Generative-Bose-Cianflone/36fe8897e24c0f990d2e23259b396765891424aa)]   
+Avishek Joey Bose, Andre Cianflone, William L. Hamilton  
+*Preprint, 2019*  
+> It seems that the idea is that adversarial attacks can be viewed as a generative modelling problem, i.e. given an unperturbed input, generate an adversarial example. The authors achieves this by an encoder-decoder framework.
+<br>
+
 **Performing Co-Membership Attacks Against Deep Generative Models** [[link](https://arxiv.org/abs/1805.09898v3)]  
 Kin Sum Liu, Chaowei Xiao, Bo Li, Jie Gao  
 *Preprint, 2019*  
