@@ -132,6 +132,12 @@ Najibesadat Sadati, Milad Zafar Nezhad, Ratna Babu Chinnam, Dongxiao Zhu
 > This paper gives a general framework of using autoencoder to extract features of EHR data, then build prediction models on top of them.
 <br>
 
+**Deep Manifold Preserving Autoencoder for Classifying Breast Cancer Histopathological Images**  [[link](https://ieeexplore.ieee.org/document/8417906)]  
+Yangqin Feng, Lei Zhang, Juan Mo  
+*IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2020*  
+> This paper uses a simple structure: a pretrained encoder plus a softmax classifier.
+<br>
+
 ## Attacks
 **Adversarial Images for Variational Autoencoders** [[link](https://arxiv.org/abs/1612.00155)] [[code](https://github.com/tabacof/adv_vae)]  
 Pedro Tabacof, Julia Tavares, Eduardo Valle  
