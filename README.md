@@ -8,7 +8,7 @@ The **bottlenecked** nature empowered autoencoder-based models (AEs) the ability
 
 Down to a science, the future of machine learning to solve real-world tasks is likely to be generative models (to pretrain) followed by discriminative models (to predict). AEs (especially its variational families), as an important member of generative models, thus becomes crucial to study.  
  
-In this curated list of literature review, we will focus on recent (1) theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning and downstream tasks, and (3) adversarial attacks and defenses for autoencoders. We may also include some not so autoencoder relavant but representation learning relavant papers in this list.   
+In this curated list of literature review, we will focus on recent (1) theories to understand the learning ability and characteristics of autoencoders, (2) models and applications exploiting autoencoders for representation learning and downstream tasks, and (3) adversarial attacks and defenses for autoencoders (we include this topic here, as it is important to reveal some crutial nature (e.g. robustness, smoothness, manifold properies etc. of the latent space of AEs). We may also include some not so autoencoder relavant but representation learning relavant papers in this list.   
 
 The list is organized as follows:  
 - [Survey](#Survey)  
@@ -248,6 +248,11 @@ Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy
 
 **Adversarial Defense of Image Classification Using a Variational Auto-Encoder** [[link](https://arxiv.org/abs/1812.02891)]   
 Yi Luo, Henry Pfister  
+*Preprint, 2018*  
+<br>
+
+**Combatting Adversarial Attacks through Denoising and Dimensionality Reduction: A Cascaded Autoencoder Approach** [[link](https://arxiv.org/abs/1812.03087v1)]  
+Rajeev Sahay, Rehana Mahfuz, Aly El Gamal  
 *Preprint, 2018*  
 <br>
 
