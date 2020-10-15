@@ -1,5 +1,5 @@
 # Awesome Autoencoder for Representation Learning
-*Last updated on August, 2020.*  
+*Last updated on October, 2020.*  
 <br>
 
 ## Introduction
@@ -191,9 +191,10 @@ Derui Wang, Chaoran Li, Sheng Wen, Surya Nepal, Yang Xiang
 *Preprint, 2019*  
 <br>
 
-🐣 **Towards Feature Space Adversarial Attack** [[link](https://arxiv.org/abs/2004.12385)]   
-Xu Q, Tao G, Cheng S, Tan L, Zhang X.  
-*Preprint, 2020*   
+**Adversarial Attack Type I: Cheat Classifiers by Significant Changes**  [[link]](https://arxiv.org/abs/1809.00594v2)  
+Sanli Tang, Xiaolin Huang, Mingjian Chen, Chengjin Sun, Jie Yang  
+*Preprint, 2019*   
+> An attack on classifiers using gradient information from the latent space of autoencoders. 
 <br>
 
 🐣 **Type I Attack for Generative Models** [[link]](https://arxiv.org/abs/2003.01872)  
@@ -201,6 +202,37 @@ Chengjin Sun, Sizhe Chen, Jia Cai, Xiaolin Huang
 *Preprint, 2020*   
 > One example attack on VAE by this paper is that the proposed attack can change an original image significantly to a meaningless one but their reconstruction results are similar. 
 <br> 
+
+🐣 **Towards Feature Space Adversarial Attack** [[link](https://arxiv.org/abs/2004.12385)]   
+Xu Q, Tao G, Cheng S, Tan L, Zhang X.  
+*Preprint, 2020*   
+<br>
+
+**BAAAN: Backdoor Attacks Against Autoencoder and GAN-Based Machine Learning Models** [[link]](https://arxiv.org/abs/2010.03007)  
+Ahmed Salem, Yannick Sautter, Michael Backes, Mathias Humbert, Yang Zhang  
+*Preprint, 2020*  
+<br>
+
+**An Adversarial Attack against Stacked Capsule Autoencoder** [[link]](https://arxiv.org/abs/2010.07230v1)  
+Jiazhu Dai, Siwei Xiong  
+*Preprint, 2020*  
+<br>
+
+🐣 **Poison Attacks against Text Datasets with Conditional Adversarially Regularized Autoencoder** [[link]](https://arxiv.org/abs/2010.02684v1)   
+Alvin Chan, Yi Tay, Yew-Soon Ong, Aston Zhang   
+*Preprint, 2020*  
+<br>
+
+**T3: Tree-Autoencoder Constrained Adversarial Text Generation for Targeted Attack** [[link]](https://arxiv.org/abs/1912.10375v2)   
+Boxin Wang, Hengzhi Pei, Boyuan Pan, Qian Chen, Shuohang Wang, Bo Li  
+*Preprint, 2020*  
+<br>
+
+🐣 **Don't Trigger Me! A Triggerless Backdoor Attack Against Deep Neural Networks** [[link]](https://arxiv.org/abs/2010.03282v1)  
+Ahmed Salem, Michael Backes, Yang Zhang  
+*Preprint, 2020*  
+> Though irrelevant to AE, this paper discusses a type of backdoor attack without triggers which may potentically influence the applications on AE.
+<br>
 
 🐣 **On Breaking Deep Generative Model-based Defenses and Beyond** [[link](https://proceedings.icml.cc/static/paper_files/icml/2020/2236-Paper.pdf)]  
 Yanzhi Chen, Renjie Xie, Zhanxing Zhu  
@@ -230,7 +262,7 @@ Yingzhen Li, John Bradshaw, Yash Sharma
 **Sufficient Conditions for Robustness to Adversarial Examples: a Theoretical and Empirical Study with Bayesian Neural Networks**  [[link](https://openreview.net/forum?id=B1eZRiC9YX)]  
 *Rejected by ICLR Workshop, 2019*   
 Yarin Gal, Lewis Smith  
-> This paper proves, under two sufficient conditions, that idealised models can have no adversarial examples.
+> This paper proves, under two sufficient conditions, that idealised models can have no adversarial examples.  
 <br>
 
 🧑🏻‍🚀 **Improving VAE's Robutsness to Adversarial Attacks** [[link](http://www.robots.ox.ac.uk/~twgr/assets/pdf/willetts2020disentangling.pdf)]  
@@ -243,7 +275,7 @@ M Willetts, A Camuto, S Roberts, C Holmes
 **Certified Robustness to Adversarial Examples with Differential Privacy**  [[link](https://arxiv.org/abs/1802.03471)]  
 Mathias Lecuyer, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Suman Jana  
 *Preprint, 2019*  
-> This paper provides a defense which could be done in the feature space (by adversarial smoothing).
+> This paper provides a defense which could be done in the feature space (by adversarial smoothing).  
 <br>
 
 **Evaluating Robustness of Deep Image Super-Resolution Against Adversarial Attacks** [[link](http://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Evaluating_Robustness_of_Deep_Image_Super-Resolution_Against_Adversarial_Attacks_ICCV_2019_paper.html)]   
@@ -323,6 +355,17 @@ Emilio Rafael Balda Cañizares
 **Protecting Against Image Translation Deepfakes by Leaking Universal Perturbations from Black-Box Neural Networks** [[link](https://arxiv.org/abs/2006.06493)]  
 Nataniel Ruiz, Sarah Adel Bargal, Stan Sclaroff  
 *Preprint, 2020*  
+<br>
+
+**DAPAS : Denoising Autoencoder to Prevent Adversarial attack in Semantic Segmentation** [[link]](https://arxiv.org/abs/1908.05195v4)  
+Seungju Cho, Tae Joon Jun, Byungsoo Oh, Daeyoung Kim  
+*Preprint, 2020*  
+<br>
+
+🧑🏻‍🚀 **Double Backpropagation for Training Autoencoders against Adversarial Attack** [[link]](https://arxiv.org/abs/2003.01895v1)   
+Chengjin Sun, Sizhe Chen, Xiaolin Huang  
+*Preprint, 2020*  
+> The paper provides a gradient smoothing method specially designed for Autoencoder models.
 <br>
 
 **Randomization matters How to defend against strong adversarial attacks** [[link](https://icml.cc/virtual/2020/poster/6157)]   
