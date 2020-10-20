@@ -251,6 +251,11 @@ Yanzhi Chen, Renjie Xie, Zhanxing Zhu
 *ICML, 2020*  
 <br>
 
+**Understanding Classifier Mistakes with Generative Models** [[link](https://arxiv.org/abs/2010.02364)]   
+Laëtitia Shao, Yang Song, Stefano Ermon   
+*Submitted to ICLR, 2021*  
+<br>
+
 
 ## Defenses  
 **Deep Variational Information Bottleneck** [[link](https://arxiv.org/abs/1612.00410)]  
@@ -261,6 +266,12 @@ Alexander A. Alemi, Ian Fischer, Joshua V. Dillon, Kevin Murphy
 **Adversarial Defense of Image Classification Using a Variational Auto-Encoder** [[link](https://arxiv.org/abs/1812.02891)]   
 Yi Luo, Henry Pfister  
 *Preprint, 2018*  
+<br>
+
+**Adversarial Defense based on Structure-to-Signal Autoencoders** [[link](https://arxiv.org/abs/1812.02891)]    
+Joachim Folz, Sebastian Palacio, Joern Hees, Damian Borth, Andreas Dengel  
+*Preprint, 2018*   
+> The idea is similar to the above one – autoencoder can be used as a pre-processing step for extracting high-level features robust to adversarial perturbations.  
 <br>
 
 **Combatting Adversarial Attacks through Denoising and Dimensionality Reduction: A Cascaded Autoencoder Approach** [[link](https://arxiv.org/abs/1812.03087v1)]  
@@ -286,6 +297,31 @@ Yarin Gal, Lewis Smith
 Rajeev Sahay, Rehana Mahfuz, Aly El Gamal  
 *Submitted to CISS, 2019*  
 > Idea: autoencoder can be used as the preprocessing for raw inputs. The preprocessing can be done in two steps: denoising and dimension reduction (e.g. use the bottleneck feature from a denoising AE to represent the original input data). The resulting features are shown to be more robust.
+<br>
+
+🧑🏻‍🚀 **Disentangled Deep Autoencoding Regularization for Robust Image Classification** [[link](https://arxiv.org/abs/1902.11134)]   
+Zhenyu Duan, Martin Renqiang Min, Li Erran Li, Mingbo Cai, Yi Xu, Bingbing Ni    
+*Preprint, 2019*   
+> The central idea is that: **disentaglement** helps **adversarial robustness**. The proposed defense mechanism takes disentaglement into regularization terms, and the resulted features are shown to be more robust.  
+> One interesting, though a bit deviating thing, is that the paper mentions that, "a recent neuroscience discovery revealing that primate brain employs disentangled shape and appearance representations for object recognition". Wow.  
+<br>
+
+🧑🏻‍🚀 **PuVAE: A Variational Autoencoder to Purify Adversarial Examples** [[link](https://arxiv.org/abs/1903.00585)]    
+Uiwon Hwang, Jaewoo Park, Hyemi Jang, Sungroh Yoon, Nam Ik Cho   
+*Preprint, 2019*   
+> The idea is similar to the previous ones – obtain a more robust feature of raw inputs by autoencoding.  
+> This paper also specifies the **manifold assumptions**, that the features learnt by autoencoders are projections on data manifold.
+<br>
+
+**DAPAS : Denoising Autoencoder to Prevent Adversarial attack in Semantic Segmentation** [[link](https://arxiv.org/abs/1908.05195)]     
+Seungju Cho, Tae Joon Jun, Byungsoo Oh, Daeyoung Kim
+*Preprint, 2019 (accepted by IJCNN'20 now)*    
+> Similar idea of the above one, yet using denoise autoencoders.
+<br>
+
+🐣 **Towards Model-Agnostic Adversarial Defenses using Adversarially Trained Autoencoders** [[link](https://arxiv.org/abs/1909.05921)]    
+Pratik Vaishnavi, Kevin Eykholt, Atul Prakash, Amir Rahmati   
+*Preprint, 2019*   
 <br>
 
 **Mitigation of Adversarial Examples in RF Deep Classifiers Utilizing AutoEncoder Pre-training** [[link](https://arxiv.org/abs/1902.08034)]   
@@ -337,17 +373,22 @@ Taylan Cemgil, Sumedh Ghaisas, Krishnamurthy (Dj) Dvijotham, Pushmeet Kohli
 *ICLR, 2020*  
 <br>
 
+**T3: Tree-Autoencoder Constrained Adversarial Text Generation for Targeted Attack** [[link](https://arxiv.org/abs/1912.10375)]   
+Boxin Wang, Hengzhi Pei, Boyuan Pan, Qian Chen, Shuohang Wang, Bo Li   
+*EMNLP, 2020*   
+<br>
+
 **Evaluating the Robustness of Defense Mechanisms based on AutoEncoder Reconstructions against Carlini-Wagner Adversarial Attacks** [[link]](https://septentrio.uit.no/index.php/nldl/article/view/5173)   
 Petru Hlihor, Riccardo Volpi, Luigi Malagò   
 *Proceedings of the Northern Lights Deep Learning Workshop, 2020*   
 > Similar to the above one, this paper shows that reconstruction by autoencoders is an effective preprocessing approach on images to defend common adversarial attacks. 
 <br>
 
-**Double Backpropagation for Training Autoencoders against Adversarial Attack** [[link](https://arxiv.org/abs/2003.01895)]  
+🐣 **Double Backpropagation for Training Autoencoders against Adversarial Attack** [[link](https://arxiv.org/abs/2003.01895)]  
 Chengjin Sun, Sizhe Chen, Xiaolin Huang  
 *Preprint, 2020*  
 > This paper proposes a training procedure to enhance the robustness of AEs.  
-> - It is based on the observation that AEs are sensitive to inputs, i.e., one can slightly modify an input but has totally different codes.  
+> - It is based on the observation that AEs are sensitive to inputs, i.e., one can slightly modify an input but has totally different codes (👀 is that so?).  
 > - Therefore, the authors restrict gradients from the reconstruction image to the original one, making AEs less sensitive to small perturbation.
 <br>
 
@@ -379,6 +420,11 @@ Bartosz Wójcik, Paweł Morawiecki, Marek Śmieja, Tomasz Krzyżek, Przemysław 
 Ao Zhang, Jinwen Ma   
 *Preprint, 2020*   
 > Old idea (reconstructed ones are most robust than original inputs), new applications (graphs rather than images).
+<br>
+
+🐣 **ARAE: Adversarially Robust Training of Autoencoders Improves Novelty Detection** [[link](https://arxiv.org/abs/2003.05669)]    
+Mohammadreza Salehi, Atrin Arya, Barbod Pajoum, Mohammad Otoofi, Amirreza Shaeiri, Mohammad Hossein Rohban, Hamid R. Rabiee   
+*Preprint, 2020*   
 <br>
 
 **Revisiting Role of Autoencoders in Adversarial Settings** [[link](https://arxiv.org/abs/2005.10750)]    
