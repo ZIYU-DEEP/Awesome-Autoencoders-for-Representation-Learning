@@ -170,9 +170,21 @@ Minghao Yin, Yongbing Zhang, Xiu Li, Shiqi Wang
 *Proceedings of the 26th ACM international conference on Multimedia (MM, 2018)*   
 <br>
 
+**AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks** [[link](https://arxiv.org/abs/1805.11770)]   
+Chun-Chen Tu, Paishun Ting, Pin-Yu Chen, Sijia Liu, Huan Zhang, Jinfeng Yi, Cho-Jui Hsieh, Shin-Ming Cheng  
+*AAAI, 2019*  
+> Previously, black-box attack is notorious at the large amount of query needed. The proposed black-box attack is featured by query-efficiency. It has: (1) an adaptive random gradient estimation and (2) an autoencoder accelerates the attack.  
+<br>
+
 **Adversarial Out-domain Examples for Generative Models** [[link](https://ieeexplore.ieee.org/abstract/document/8802456/?casa_token=5pJGy5iWsJgAAAAA:z10cWZLFJOM-ArPQgnMsWOueed-0OqhGxLziBxmLjjqMVRdJnzIaJ1AIoL0kk9YN1bPHi8twbQ)]   
 D. Pasquini, M. Mingione, M. Bernaschi  
 *IEEE European Symposium on Security and Privacy Workshops (Euro S&PW, 2019)*  
+<br>
+
+🐣 **Physical Adversarial Attacks Against End-to-End Autoencoder Communication Systems** [[link](https://arxiv.org/abs/1902.08391)]   
+Meysam Sadeghi, Erik G. Larsson  
+*IEEE Communications Letters, 2019*  
+> A physical attack for communication system by well-designed perturbation signal over the channel, which is more destructive than jamming attacks.
 <br>
 
 🐣 **Generalizable Adversarial Attack Using Generative Models** [[link](https://www.semanticscholar.org/paper/Generalizable-Adversarial-Attacks-Using-Generative-Bose-Cianflone/36fe8897e24c0f990d2e23259b396765891424aa)]   
@@ -265,9 +277,21 @@ Yingzhen Li, John Bradshaw, Yash Sharma
 <br>
 
 **Sufficient Conditions for Robustness to Adversarial Examples: a Theoretical and Empirical Study with Bayesian Neural Networks**  [[link](https://openreview.net/forum?id=B1eZRiC9YX)]  
-*Rejected by ICLR Workshop, 2019*   
 Yarin Gal, Lewis Smith  
+*Rejected by ICLR Workshop, 2019*   
 > This paper proves, under two sufficient conditions, that idealised models can have no adversarial examples.  
+<br>
+
+**Combatting Adversarial Attacks through Denoising and Dimensionality Reduction: A Cascaded Autoencoder Approach** [[link](https://arxiv.org/abs/1812.03087)]    
+Rajeev Sahay, Rehana Mahfuz, Aly El Gamal  
+*Submitted to CISS, 2019*  
+> Idea: autoencoder can be used as the preprocessing for raw inputs. The preprocessing can be done in two steps: denoising and dimension reduction (e.g. use the bottleneck feature from a denoising AE to represent the original input data). The resulting features are shown to be more robust.
+<br>
+
+**Mitigation of Adversarial Examples in RF Deep Classifiers Utilizing AutoEncoder Pre-training** [[link](https://arxiv.org/abs/1902.08034)]   
+Silvija Kokalj-Filipovic, Rob Miller, Nicholas Chang, Chi Leung Lau  
+*Preprint, 2019*   
+> A simple application using the idea that features are more robust after processed by autoencoders.
 <br>
 
 🧑🏻‍🚀 **Improving VAE's Robutsness to Adversarial Attacks** [[link](http://www.robots.ox.ac.uk/~twgr/assets/pdf/willetts2020disentangling.pdf)]  
@@ -277,7 +301,7 @@ M Willetts, A Camuto, S Roberts, C Holmes
 > - This idea is based on the observation that disentangled representation improves robustness yet reducing the quality of reconsturction ability.
 <br>
 
-**Certified Robustness to Adversarial Examples with Differential Privacy**  [[link](https://arxiv.org/abs/1802.03471)]  
+**Certified Robustness to Adversarial Examples with Differential Privacy** [[link](https://arxiv.org/abs/1802.03471)]   
 Mathias Lecuyer, Vaggelis Atlidakis, Roxana Geambasu, Daniel Hsu, Suman Jana  
 *Preprint, 2019*  
 > This paper provides a defense which could be done in the feature space (by adversarial smoothing).  
@@ -341,6 +365,26 @@ Mohammadreza Salehi, Atrin Arya, Barbod Pajoum, Mohammad Otoofi, Amirreza Shaeir
 Igor Buzhinsky, Arseny Nerinovsky, Stavros Tripakis  
 *Preprint, 2020*  
 > This paper provides *latent space performance metrics* to evaluate models' robustness.
+<br>
+
+🐣 **Adversarial Examples Detection and Analysis with Layer-wise Autoencoders** [[link](https://arxiv.org/abs/2006.10013)]    
+Bartosz Wójcik, Paweł Morawiecki, Marek Śmieja, Tomasz Krzyżek, Przemysław Spurek, Jacek Tabor    
+*Preprint, 2020*  
+> This paper uses autoencoders to do defense. The assumption is that adversarial example do not lie on the  **manifold of true data**. The paper then uses autoencoders to find such manifold (i.e. using its latent space to approximate the manifold).   
+> It needs to be note that, this approach can be vulnerable, especially when the latent spaces learnt by autoencoders deviate from true data manifold.   
+> Reminds me of adding constraints on AEs for better approximation for data manifold. 
+<br>
+
+**DefenseVGAE: Defending against Adversarial Attacks on Graph Data via a Variational Graph Autoencoder** [[link](https://arxiv.org/abs/2006.08900)]  
+Ao Zhang, Jinwen Ma   
+*Preprint, 2020*   
+> Old idea (reconstructed ones are most robust than original inputs), new applications (graphs rather than images).
+<br>
+
+**Revisiting Role of Autoencoders in Adversarial Settings** [[link](https://arxiv.org/abs/2005.10750)]    
+Byeong Cheon Kim, Jung Uk Kim, Hakmin Lee, Yong Man Ro  
+*ICIP, 2020*  
+> A short paper discusses the existence of robustness in autoencoder models (evaluated by classification performance). The central idea seems to be a bit shallow, but still important: AEs learn less discriminative features, enabling them to be more robust. 
 <br>
 
 ## Miscellaneous 
