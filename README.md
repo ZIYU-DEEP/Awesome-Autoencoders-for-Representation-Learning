@@ -1,5 +1,5 @@
 # Awesome Autoencoder for Representation Learning
-*Last updated on October, 2020.*  
+*Last updated on October 20, 2020.*  
 <br>
 
 ## Introduction
