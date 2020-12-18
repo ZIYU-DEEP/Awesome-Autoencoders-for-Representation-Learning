@@ -1,4 +1,4 @@
-# Awesome Autoencoder for Representation Learning
+# Awesome Autoencoder for Representation Learning [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 *Last updated on October 20, 2020.*  
 <br>
 
